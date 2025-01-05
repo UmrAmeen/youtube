@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { formateDuration } from "../utils/formateDuration";
 import { formatTimeAgo } from "../utils/formateTimeAgo";
-
+import React from "react";
 type VideoGridItemProps = {
   id: string;
   title: string;
